@@ -24,7 +24,7 @@ jobs:
           pip install matplotlib pandas # Установите библиотеки, нужные вашему скрипту
 
       - name: Run script
-        run: python your_script.py # Запуск вашего скрипта
+        run: python generate_plots.py # Запуск вашего скрипта
 
       - name: Commit and push changes
         run: |
